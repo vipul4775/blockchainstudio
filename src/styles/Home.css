@@ -1,0 +1,20 @@
+.slides {
+  /* border-style: solid; */
+  /* background-color: red; */
+  position: relative;
+  border-radius: 10%;
+  min-width: 100%;
+  min-height: 60vh;
+  max-width: 100%;
+  max-height: 60vh;
+}
+.carousel {
+  /* object-fit: cover; */
+}
+.slides img {
+  
+  /* border-radius: 20px; */
+  max-width: 100%;
+  max-height: 50vh;
+  min-height: 50vh;
+}
