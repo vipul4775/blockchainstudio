@@ -19,6 +19,8 @@ function Layout() {
             <Route path='/about' element={<About/>}></Route>
         </Routes>
         </div>
+
+        <hr className="horizontal-line" />
        
         <Footer/>
         

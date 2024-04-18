@@ -64,7 +64,7 @@
 .searchbar input{
     width: 150px;
     border-radius: 15px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 .searchicon{
     /* border-style: solid; */

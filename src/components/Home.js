@@ -1,23 +1,24 @@
-import { Carousel, Card, NavLink } from "react-bootstrap";
+import { Carousel, Card, NavLink, Button } from "react-bootstrap";
 import "../styles/Home.css";
+import ArticleCard from "./ArticleCard";
+import "../styles/ArticleCard.css";
 
 function Home() {
   return (
     <div>
-      <h2> Popular Articles</h2>
-
       <div className="slides">
-        <Carousel className="carousel">
-          <Carousel.Item>
-            <Card >
+        <h2> Popular Articles</h2>
+        <Carousel style={{ borderRadius: "20px" }}>
+          <Carousel.Item style={{ borderRadius: "20px" }}>
+            <Card style={{ borderRadius: "20px" }}>
               <Card.Img src="../Artcle1.avif" />
 
               <Card.Header>BitCoin Halving</Card.Header>
             </Card>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Card>
+          <Carousel.Item style={{ borderRadius: "20px" }}>
+            <Card style={{ borderRadius: "20px" }}>
               <Card.Img src="../unlock.jpg" />
               <Card.Header> Join CatTutorials</Card.Header>
             </Card>
@@ -26,10 +27,20 @@ function Home() {
       </div>
 
       <hr className="horizontal-line" />
-      <div>
-        <h2> Some More Popular Articles</h2>
-        
+
+      <div className="cardgroup">
+        <div className="cardgroup-header">
+          <h2> Crypto News</h2>
+          <Button> View All</Button>
+        </div>
+        <div className='cardgroup-body'>
+          <ArticleCard style={{margin:'100px'}}></ArticleCard> 
+          <ArticleCard />
+          <ArticleCard />
+          {/* <ArticleCard /> */}
+        </div>
       </div>
+      <hr className="horizontal-line" />
     </div>
   );
 }

@@ -1,19 +1,27 @@
 .slides {
   /* border-style: solid; */
   /* background-color: red; */
-  position: relative;
-  border-radius: 10%;
+  /* margin: auto; */
+  margin-bottom: 50px;
+  /* position: relative; */
+  border-radius: 20px;
   min-width: 100%;
   min-height: 60vh;
-  max-width: 100%;
+  max-width: 90%;
   max-height: 60vh;
 }
-.carousel {
+.slides h2{
+  margin-bottom: 20px;
+}
+.carousel{
   /* object-fit: cover; */
+  border-radius: 20px;
+  /* background-color: blueviolet; */
 }
 .slides img {
   
-  /* border-radius: 20px; */
+  border-radius: 20px 20px 0 0;
+
   max-width: 100%;
   max-height: 50vh;
   min-height: 50vh;
