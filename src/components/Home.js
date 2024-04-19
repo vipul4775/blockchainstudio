@@ -19,7 +19,7 @@ function Home() {
 
           <Carousel.Item style={{ borderRadius: "20px" }}>
             <Card style={{ borderRadius: "20px" }}>
-              <Card.Img src="../slides2.jpg" />
+              <Card.Img src="../Slides2.jpg" />
               <Card.Header> Bitcoin Dominance</Card.Header>
             </Card>
           </Carousel.Item>
