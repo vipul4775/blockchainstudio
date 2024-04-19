@@ -1,9 +1,12 @@
+
 import { Carousel, Card, NavLink, Button } from "react-bootstrap";
 import "../styles/Home.css";
 import ArticleCard from "./ArticleCard";
 import "../styles/ArticleCard.css";
+import { Route,Link } from "react-router-dom";
 
 function Home() {
+ 
   return (
     <div>
       <div className="slides">
@@ -31,7 +34,9 @@ function Home() {
       <div className="cardgroup">
         <div className="cardgroup-header">
           <h2> Crypto News</h2>
-          <Button> View All</Button>
+          <Link to="/articles">
+          <Button > View All</Button>
+          </Link>
         </div>
         <div className='cardgroup-body'>
           <ArticleCard style={{margin:'100px'}}></ArticleCard> 
