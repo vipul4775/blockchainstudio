@@ -11,7 +11,7 @@ function Home() {
         <Carousel style={{ borderRadius: "20px" }}>
           <Carousel.Item style={{ borderRadius: "20px" }}>
             <Card style={{ borderRadius: "20px" }}>
-              <Card.Img src="../Slides1.jpg" />
+              <Card.Img src="../slides1.jpg" />
 
               <Card.Header>BitCoin Halving</Card.Header>
             </Card>
