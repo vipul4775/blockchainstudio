@@ -11,7 +11,7 @@ function Home() {
         <Carousel style={{ borderRadius: "20px" }}>
           <Carousel.Item style={{ borderRadius: "20px" }}>
             <Card style={{ borderRadius: "20px" }}>
-              <Card.Img src="../Artcle1.avif" />
+              <Card.Img src="../Slides1.jpg" />
 
               <Card.Header>BitCoin Halving</Card.Header>
             </Card>
@@ -19,8 +19,8 @@ function Home() {
 
           <Carousel.Item style={{ borderRadius: "20px" }}>
             <Card style={{ borderRadius: "20px" }}>
-              <Card.Img src="../unlock.jpg" />
-              <Card.Header> Join CatTutorials</Card.Header>
+              <Card.Img src="../slides2.jpg" />
+              <Card.Header> Bitcoin Dominance</Card.Header>
             </Card>
           </Carousel.Item>
         </Carousel>

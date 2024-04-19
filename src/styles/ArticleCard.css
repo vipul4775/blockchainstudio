@@ -29,7 +29,7 @@
   padding: 0;
    display: flex;
    flex-wrap: wrap;
-   /* justify-content: space-between; */
+   justify-content: space-between;
    margin-left: 0;
   /* border-style: solid; */
 }
@@ -41,7 +41,7 @@
   margin: 20px;
   /* background-color: aqua; */
   height: 500px;
-  width: 470px;
+  width: 400px;
   border-radius: 20px;
 }
 .articleCard img {

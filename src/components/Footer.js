@@ -18,6 +18,16 @@ export default function Footer() {
             <li> Articles</li>
           </ul>
         </div>
+        <div className="categories" style={{marginRight:'10px'}}>
+        <ul>
+            <li style={{ fontWeight: "bold" }}> Learn</li>
+            <li> Learn Overview</li>
+            <li> Learn Web3</li>
+            <li> Trading Strategies</li>
+            <li> Glossory</li>
+            
+          </ul>
+        </div>
         <div className="categories">
         <ul>
             <li style={{ fontWeight: "bold" }}> Features</li>
@@ -28,16 +38,7 @@ export default function Footer() {
             <li> CryptoPacks</li>
           </ul>
         </div>
-        <div className="categories">
-        <ul>
-            <li style={{ fontWeight: "bold" }}> Learn</li>
-            <li> Learn Overview</li>
-            <li> Learn Web3</li>
-            <li> Trading Strategies</li>
-            <li> Glossory</li>
-            
-          </ul>
-        </div>
+        
       </div>
       <div className="footer-misc">
         <ul>
